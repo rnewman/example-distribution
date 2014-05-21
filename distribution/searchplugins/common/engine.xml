@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Example Google</ShortName>
+  <Description>Example Google</Description>
+  <InputEncoding>ISO-8859-1</InputEncoding>
+  <Url type="text/html" method="GET" template="http://www.google.com/search">
+    <Param name="su" value="{searchTerms}"/>
+    <Param name="mc" value="searchplugin@example@mozilla.org@web"/>
+    <Param name="origin" value="searchplugin"/>
+  </Url>
+</SearchPlugin>
+

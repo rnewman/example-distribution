@@ -1,0 +1,11 @@
+{
+  "Global": {
+    "id": "example",
+    "version": 1.0,
+    "about": "Example Distribution"
+  },
+  "Preferences": {},
+  "LocalizablePreferences": {
+    "browser.search.defaultenginename": "Example Google"
+  }
+}
